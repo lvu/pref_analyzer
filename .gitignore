@@ -1,0 +1,7 @@
+*~
+.*.swp
+.bloop/
+.metals/
+target/
+venv/
+__pycache__/
