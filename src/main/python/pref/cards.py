@@ -158,14 +158,10 @@ class Position:
 
     def __init__(
         self,
-        hands: Union[Mapping[Player, Hand], Iterable[Hand]],
+        hands: Mapping[Player, Hand],
         turn: Player
-    ):
-        self.hands: Mapping[Player, Hand]
-        if isinstance(hands, Mapping):
-            self.hands = hands
-        else:
-            self.hands = dict(zip(Player, hands))
+    ) -> None:
+        self.hands = hands
         self.turn = turn
 
     @property
