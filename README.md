@@ -8,7 +8,7 @@ I wrote the Python one initially, but it was too slow, so I've reimplemented it 
 Input format
 ------------
 
-The input is a position description in JSON format; two samples are provided in files [kow_miser.json] and [train.json]; the first one is the famous Sofia Kowalewskaya misère.
+The input is a position description in JSON format; two samples are provided in files [kow_miser.json](./kow_miser.json) and [train.json](./train.json); the first one is the famous Sofia Kowalewskaya misère.
 
 The format should be rather straightforward; some top-level fields to note:
 * `misere`: Boolean, defaults to false;
