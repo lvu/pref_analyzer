@@ -42,7 +42,7 @@ class Analyzer:
                 )
             except:
                 from .ui import print_position
-                print("HERE")
+                print("ERROR")
                 print_position(pos)
                 raise
         return self._result_cache[pos.hash_str]
